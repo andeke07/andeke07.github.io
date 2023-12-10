@@ -106,7 +106,7 @@
        "Name": "ATP"
      },
      "Court": {
-       "Type": "CLAY",
+       "Type": "GRASS",
        "Name": "Court 12",
        "Abbreviation": "C12"
      },
