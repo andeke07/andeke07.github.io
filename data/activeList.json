@@ -1,0 +1,153 @@
+
+[
+  {
+    "Id": "abcd",
+    "Date": "10-12-2024",
+    "Time": "3pm",
+    "Type": "SINGLES", 
+    "Title": {
+      "Name": "Madrid Masters 1000", 
+      "Image": "ATP" 
+    },
+    "Description": "Djokovic v Nadal", 
+    "Score": {
+      "Text": "6-2"
+    },
+    "Status": {
+      "Started": 1, 
+      "Playing": 1,  
+      "Completed": 0  
+    },
+    "Competition": {
+      "Id": "String",
+      "Name": "String"
+    },
+    "Tournament": {
+      "Id": "String",
+      "Name": "ATP Finals"
+    },
+    "Tour": {
+      "Id": "abc123",
+      "Name": "ATP"
+    },
+    "Court": {
+      "Type": "CLAY",
+      "Name": "Court 5",
+      "Abbreviation": "C5"
+    },
+    "Teams": [
+      {
+        "Title": "Djokovic",
+        "Seeding": 1,
+        "Players": [
+          {
+            "Id": "123abv",
+            "Name": "Novac Djokovic",
+            "FirstName": "Novac",
+            "LastName": "Djokovic",
+            "Country": {
+              "Name": "place",
+              "Code": "pl" 
+            }
+          }
+        ]
+      },
+      {
+        "Title": "Murray",
+        "Seeding": 2,
+        "Players": [
+          {
+            "Id": "123abv",
+            "Name": "Andy Murray",
+            "FirstName": "Andy",
+            "LastName": "Murray",
+            "Country": {
+              "Name": "place",
+              "Code": "pl" 
+            }
+          }
+        ]
+      }
+    ],
+    "Channel": {
+      "Name": "Main Channel",
+      "Type": "LINEAR",
+      "SourceNumber": 0
+    }
+  },
+   {
+     "Id": "abcd",
+     "Date": "10-12-2024",
+     "Time": "5pm",
+     "Type": "SINGLES",
+     "Title": {
+       "Name": "Madrid Masters 1000",
+       "Image": "ATP"
+     },
+     "Description": "Williams v Willliams",
+     "Score": {
+       "Text": "6-2"
+     },
+     "Status": {
+       "Started": 1,
+       "Playing": 1,
+       "Completed": 0
+     },
+     "Competition": {
+       "Id": "String",
+       "Name": "String"
+     },
+     "Tournament": {
+       "Id": "String",
+       "Name": "ATP Finals"
+     },
+     "Tour": {
+       "Id": "abc123",
+       "Name": "ATP"
+     },
+     "Court": {
+       "Type": "CLAY",
+       "Name": "Court 12",
+       "Abbreviation": "C12"
+     },
+     "Teams": [
+       {
+         "Title": "Williams",
+         "Seeding": 1,
+         "Players": [
+           {
+             "Id": "123abv",
+             "Name": "Venus Williams",
+             "FirstName": "Venus",
+             "LastName": "Williams",
+             "Country": {
+               "Name": "place",
+               "Code": "pl"
+             }
+           }
+         ]
+       },
+       {
+         "Title": "Williams",
+         "Seeding": 2,
+         "Players": [
+           {
+             "Id": "123abv",
+             "Name": "Serena Williams",
+             "FirstName": "Serena",
+             "LastName": "Williams",
+             "Country": {
+               "Name": "place",
+               "Code": "pl"
+             }
+           }
+         ]
+       }
+     ],
+     "Channel": {
+       "Name": "Main Channel",
+       "Type": "LINEAR",
+       "SourceNumber": 1
+     }
+   }
+]
