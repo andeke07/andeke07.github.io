@@ -1,0 +1,207 @@
+{
+  "Id": "123456",
+  "Name": "String",
+  "Type": "LINEAR" ,
+  "SourceNumber": 10 ,
+  "PreviousMatch": {
+     "Id": "weoei4352fh443345",
+    "Date": "10-12-2023",
+    "Time": "1pm" ,
+    "Type": "SINGLES" ,
+    "Title": {
+      "Name": "Madrid Masters" ,
+      "Image": "ATP" 
+    },
+    "Description": "Nadal v Murray" ,
+    "Status": {
+      "Started": 1 ,
+      "Playing": 1 ,
+      "Completed": 1 
+    },
+    "Competition": {
+      "Id": "3493487erifu",
+      "Name": "Tennis"
+    },
+    "Tournament": {
+      "Id": "249328r6kghfs",
+      "Name": "Big Tournament"
+    },
+    "Tour": {
+      "Id": "erfowiu987",
+      "Name": "Big Tour"
+    },
+    "Court": {
+      "Type": "CLAY" ,
+      "Name": "Court 7",
+      "Abbreviation": "Court 7"
+    },
+    "Teams": [
+      {
+        "Title": "Djokovic" ,
+        "Seeding": 1,
+        "Players": [
+          {
+            "Id": 2314213,
+            "Name": "Novak Djokovic",
+            "FirstName": "Novak",
+            "LastName": "Djokovic",
+            "Country": {
+              "Name": "Serbia",
+              "Code": "RS" 
+            }
+          }
+        ]
+      },
+      {
+        "Title": "Murray" ,
+        "Seeding": 2,
+        "Players": [
+          {
+            "Id": 23145354213,
+            "Name": "Andy Murray",
+            "FirstName": "Andy",
+            "LastName": "Murray",
+            "Country": {
+              "Name": "Great Britain",
+              "Code": "gb" 
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "ActiveMatch": {
+     "Id": "weoeifh443345",
+    "Date": "10-12-2023",
+    "Time": "3pm" ,
+    "Type": "SINGLES" ,
+    "Title": {
+      "Name": "Madrid Masters" ,
+      "Image": "ATP" 
+    },
+    "Description": "Djokovic v Federer" ,
+    "Status": {
+      "Started": 1 ,
+      "Playing": 1 ,
+      "Completed": 0 
+    },
+    "Competition": {
+      "Id": "3493487erifu",
+      "Name": "Tennis"
+    },
+    "Tournament": {
+      "Id": "249328r6kghfs",
+      "Name": "Big Tournament"
+    },
+    "Tour": {
+      "Id": "erfowiu987",
+      "Name": "Big Tour"
+    },
+    "Court": {
+      "Type": "CLAY" ,
+      "Name": "Court 1",
+      "Abbreviation": "C1"
+    },
+    "Teams": [
+      {
+        "Title": "Djokovic" ,
+        "Seeding": 1,
+        "Players": [
+          {
+            "Id": 2314213,
+            "Name": "Novak Djokovic",
+            "FirstName": "Novak",
+            "LastName": "Djokovic",
+            "Country": {
+              "Name": "Serbia",
+              "Code": "RS" 
+            }
+          }
+        ]
+      },
+      {
+        "Title": "Federed" ,
+        "Seeding": 2,
+        "Players": [
+          {
+            "Id": 23145354213,
+            "Name": "Roger Federer",
+            "FirstName": "Roger",
+            "LastName": "Federer",
+            "Country": {
+              "Name": "Switzerland",
+              "Code": "ch" 
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "NextMatch": {
+     "Id": "weoeifh443345",
+    "Date": "10-12-2023",
+    "Time": "3pm" ,
+    "Type": "SINGLES" ,
+    "Title": {
+      "Name": "Madrid Masters" ,
+      "Image": "ATP" 
+    },
+    "Description": "Djokovic v Federer" ,
+    "Status": {
+      "Started": 1 ,
+      "Playing": 1 ,
+      "Completed": 0 
+    },
+    "Competition": {
+      "Id": "3493487erifu",
+      "Name": "Tennis"
+    },
+    "Tournament": {
+      "Id": "249328r6kghfs",
+      "Name": "Big Tournament"
+    },
+    "Tour": {
+      "Id": "erfowiu987",
+      "Name": "Big Tour"
+    },
+    "Court": {
+      "Type": "CLAY" ,
+      "Name": "Spanish Court",
+      "Abbreviation": "SCourt"
+    },
+    "Teams": [
+      {
+        "Title": "Djokovic" ,
+        "Seeding": 1,
+        "Players": [
+          {
+            "Id": 2314213,
+            "Name": "Novak Djokovic",
+            "FirstName": "Novak",
+            "LastName": "Djokovic",
+            "Country": {
+              "Name": "Serbia",
+              "Code": "RS" 
+            }
+          }
+        ]
+      },
+      {
+        "Title": "Federed" ,
+        "Seeding": 2,
+        "Players": [
+          {
+            "Id": 23145354213,
+            "Name": "Roger Federer",
+            "FirstName": "Roger",
+            "LastName": "Federer",
+            "Country": {
+              "Name": "Switzerland",
+              "Code": "ch" 
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
