@@ -1,153 +1,207 @@
-
-[
-  {
-    "Id": "abcd",
-    "Date": "10-12-2024",
-    "Time": "3pm",
-    "Type": "SINGLES", 
+{
+  "Id": "123456",
+  "Name": "String",
+  "Type": "LINEAR" ,
+  "SourceNumber": 10 ,
+  "PreviousMatch": {
+    "Id": "weoei4352fh443345",
+    "Date": "2023-12-10",
+    "Time": "1pm" ,
+    "Type": "SINGLES" ,
     "Title": {
-      "Name": "Madrid Masters 1000", 
-      "Image": "ATP" 
+      "Name": "Australian Open", 
+      "Image": "AUSTRALIAN_OPEN"  
     },
-    "Description": "Djokovic v Nadal", 
-    "Score": {
-      "Text": "6-2"
-    },
+    "Description": "Djokovic v Murray" ,
     "Status": {
-      "Started": 1, 
-      "Playing": 1,  
-      "Completed": 0  
+      "Started": true, 
+      "Playing": true, 
+      "Completed": true 
     },
     "Competition": {
-      "Id": "String",
-      "Name": "String"
+      "Id": "3493487erifu",
+      "Name": "Australian Open"
     },
     "Tournament": {
-      "Id": "String",
-      "Name": "ATP Finals"
+      "Id": "249328r6kghfs",
+      "Name": "Australian Open 2024"
     },
     "Tour": {
-      "Id": "abc123",
-      "Name": "ATP"
+      "Id": "erfowiu987",
+      "Name": "ATP World Tour"
     },
     "Court": {
-      "Type": "CLAY",
-      "Name": "Court 5",
-      "Abbreviation": "C5"
+      "Type": "CLAY" ,
+      "Name": "Court 12",
+      "Abbreviation": "C12"
     },
     "Teams": [
       {
-        "Title": "Djokovic",
+        "Title": "Djokovic" ,
         "Seeding": 1,
         "Players": [
           {
-            "Id": "123abv",
-            "Name": "Novac Djokovic",
-            "FirstName": "Novac",
+            "Id": 2314213,
+            "Name": "Novak Djokovic",
+            "FirstName": "Novak",
             "LastName": "Djokovic",
             "Country": {
-              "Name": "place",
-              "Code": "pl" 
+              "Name": "Serbia",
+              "Code": "SRB" 
             }
           }
         ]
       },
       {
-        "Title": "Murray",
+        "Title": "Murray" ,
         "Seeding": 2,
         "Players": [
           {
-            "Id": "123abv",
+            "Id": 23145354213,
             "Name": "Andy Murray",
             "FirstName": "Andy",
             "LastName": "Murray",
             "Country": {
-              "Name": "place",
-              "Code": "pl" 
+              "Name": "Great Britain",
+              "Code": "GBR" 
             }
           }
         ]
       }
-    ],
-    "Channel": {
-      "Name": "Main Channel",
-      "Type": "LINEAR",
-      "SourceNumber": 0
-    }
+    ]
   },
-   {
-     "Id": "abcd",
-     "Date": "10-12-2024",
-     "Time": "5pm",
-     "Type": "SINGLES",
-     "Title": {
-       "Name": "Madrid Masters 1000",
-       "Image": "ATP"
-     },
-     "Description": "Williams v Willliams",
-     "Score": {
-       "Text": "6-2"
-     },
-     "Status": {
-       "Started": 1,
-       "Playing": 1,
-       "Completed": 0
-     },
-     "Competition": {
-       "Id": "String",
-       "Name": "String"
-     },
-     "Tournament": {
-       "Id": "String",
-       "Name": "ATP Finals"
-     },
-     "Tour": {
-       "Id": "abc123",
-       "Name": "ATP"
-     },
-     "Court": {
-       "Type": "GRASS",
-       "Name": "Court 12",
-       "Abbreviation": "C12"
-     },
-     "Teams": [
-       {
-         "Title": "Williams",
-         "Seeding": 1,
-         "Players": [
-           {
-             "Id": "123abv",
-             "Name": "Venus Williams",
-             "FirstName": "Venus",
-             "LastName": "Williams",
-             "Country": {
-               "Name": "place",
-               "Code": "pl"
-             }
-           }
-         ]
-       },
-       {
-         "Title": "Williams",
-         "Seeding": 2,
-         "Players": [
-           {
-             "Id": "123abv",
-             "Name": "Serena Williams",
-             "FirstName": "Serena",
-             "LastName": "Williams",
-             "Country": {
-               "Name": "place",
-               "Code": "pl"
-             }
-           }
-         ]
-       }
-     ],
-     "Channel": {
-       "Name": "Main Channel",
-       "Type": "LINEAR",
-       "SourceNumber": 1
-     }
-   }
-]
+  "ActiveMatch": {
+     "Id": "weoeifh443345",
+    "Date": "2023-12-10", 
+    "Time": "3pm" ,
+    "Type": "SINGLES" ,
+    "Title": {
+      "Name": "Madrid Masters" ,
+      "Image": "ATP_WORLD_TOUR"   
+    },
+    "Description": "Djokovic v Federer" ,
+    "Status": {
+      "Started": true, 
+      "Playing": true, 
+      "Completed": false 
+    },
+    "Competition": {
+      "Id": "3493487erifu",
+      "Name": "Madrid Masters"
+    },
+    "Tournament": {
+      "Id": "249328r6kghfs",
+      "Name": "Madrid Masters 2023"
+    },
+    "Tour": {
+      "Id": "erfowiu987",
+      "Name": "ATP World Tour"
+    },
+    "Court": {
+      "Type": "CLAY" ,
+      "Name": "Court 1",
+      "Abbreviation": "C1"
+    },
+    "Teams": [
+      {
+        "Title": "Djokovic" ,
+        "Seeding": 1,
+        "Players": [
+          {
+            "Id": 2314213,
+            "Name": "Novak Djokovic",
+            "FirstName": "Novak",
+            "LastName": "Djokovic",
+            "Country": {
+              "Name": "Serbia",
+              "Code": "RS" 
+            }
+          }
+        ]
+      },
+      {
+        "Title": "Federer" ,
+        "Seeding": 2,
+        "Players": [
+          {
+            "Id": 23145354213,
+            "Name": "Roger Federer",
+            "FirstName": "Roger",
+            "LastName": "Federer",
+            "Country": {
+              "Name": "Switzerland",
+              "Code": "ch" 
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "NextMatch": {
+     "Id": "weoeifh443345",
+    "Date": "2023-12-10",
+    "Time": "5pm" ,
+    "Type": "SINGLES" ,
+    "Title": {
+      "Name": "Madrid Masters" , 
+      "Image": "WTA_TOUR"   
+    },
+    "Description": "Willams v Williams" ,
+    "Status": {
+      "Started": true, 
+      "Playing": true, 
+      "Completed": false 
+    },
+    "Competition": {
+      "Id": "3493487erifu",
+      "Name": "Madrid Masters"
+    },
+    "Tournament": {
+      "Id": "249328r6kghfs",
+      "Name": "Madrid Masters 2023"
+    },
+    "Tour": {
+      "Id": "erfowiu987",
+      "Name": "WTA Tour"
+    },
+    "Court": {
+      "Type": "CLAY" ,
+      "Name": "Court 3",
+      "Abbreviation": "C3"
+    },
+    "Teams": [
+      {
+        "Title": "Williams" ,
+        "Seeding": 1,
+        "Players": [
+          {
+            "Id": 2314213,
+            "Name": "Venus Williams",
+            "FirstName": "Venus",
+            "LastName": "Williams",
+            "Country": {
+              "Name": "United States",
+              "Code": "USA" 
+            }
+          }
+        ]
+      },
+      {
+        "Title": "Williams" ,
+        "Seeding": 2,
+        "Players": [
+          {
+            "Id": 23145354213,
+            "Name": "Serena Williams",
+            "FirstName": "Serena",
+            "LastName": "Williams",
+            "Country": {
+              "Name": "United States",
+              "Code": "USA" 
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
