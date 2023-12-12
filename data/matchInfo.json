@@ -1,22 +1,22 @@
 {
   "Id": "123456",
   "Name": "String",
-  "Type": "LINEAR" ,
-  "SourceNumber": 10 ,
+  "Type": "LINEAR",
+  "SourceNumber": 10,
   "PreviousMatch": {
     "Id": "weoei4352fh443345",
     "Date": "2023-12-10",
-    "Time": "1pm" ,
-    "Type": "SINGLES" ,
+    "Time": "1pm",
+    "Type": "SINGLES",
     "Title": {
-      "Name": "Australian Open", 
-      "Image": "AUSTRALIAN_OPEN"  
+      "Name": "Australian Open",
+      "Image": "AUSTRALIAN_OPEN"
     },
-    "Description": "Djokovic v Murray" ,
+    "Description": "Djokovic v Murray",
     "Status": {
-      "Started": true, 
-      "Playing": true, 
-      "Completed": true 
+      "Started": true,
+      "Playing": true,
+      "Completed": true
     },
     "Competition": {
       "Id": "3493487erifu",
@@ -31,13 +31,13 @@
       "Name": "ATP World Tour"
     },
     "Court": {
-      "Type": "CLAY" ,
+      "Type": "CLAY",
       "Name": "Court 12",
       "Abbreviation": "C12"
     },
     "Teams": [
       {
-        "Title": "Djokovic" ,
+        "Title": "Djokovic",
         "Seeding": 1,
         "Players": [
           {
@@ -47,13 +47,13 @@
             "LastName": "Djokovic",
             "Country": {
               "Name": "Serbia",
-              "Code": "SRB" 
+              "Code": "SRB"
             }
           }
         ]
       },
       {
-        "Title": "Murray" ,
+        "Title": "Murray",
         "Seeding": 2,
         "Players": [
           {
@@ -63,7 +63,7 @@
             "LastName": "Murray",
             "Country": {
               "Name": "Great Britain",
-              "Code": "GBR" 
+              "Code": "GBR"
             }
           }
         ]
@@ -71,19 +71,19 @@
     ]
   },
   "ActiveMatch": {
-     "Id": "weoeifh443345",
-    "Date": "2023-12-10", 
-    "Time": "3pm" ,
-    "Type": "SINGLES" ,
+    "Id": "weoeifh443345",
+    "Date": "2023-12-10",
+    "Time": "3pm",
+    "Type": "SINGLES",
     "Title": {
-      "Name": "Madrid Masters" ,
-      "Image": "ATP_WORLD_TOUR"   
+      "Name": "Madrid Masters",
+      "Image": "ATP_WORLD_TOUR"
     },
-    "Description": "Djokovic v Federer" ,
+    "Description": "Djokovic v Federer",
     "Status": {
-      "Started": true, 
-      "Playing": true, 
-      "Completed": false 
+      "Started": true,
+      "Playing": true,
+      "Completed": false
     },
     "Competition": {
       "Id": "3493487erifu",
@@ -98,13 +98,13 @@
       "Name": "ATP World Tour"
     },
     "Court": {
-      "Type": "CLAY" ,
+      "Type": "CLAY",
       "Name": "Court 1",
       "Abbreviation": "C1"
     },
     "Teams": [
       {
-        "Title": "Djokovic" ,
+        "Title": "Djokovic",
         "Seeding": 1,
         "Players": [
           {
@@ -114,13 +114,13 @@
             "LastName": "Djokovic",
             "Country": {
               "Name": "Serbia",
-              "Code": "RS" 
+              "Code": "RS"
             }
           }
         ]
       },
       {
-        "Title": "Federer" ,
+        "Title": "Federer",
         "Seeding": 2,
         "Players": [
           {
@@ -130,7 +130,7 @@
             "LastName": "Federer",
             "Country": {
               "Name": "Switzerland",
-              "Code": "ch" 
+              "Code": "ch"
             }
           }
         ]
@@ -138,19 +138,19 @@
     ]
   },
   "NextMatch": {
-     "Id": "weoeifh443345",
+    "Id": "weoeifh443345",
     "Date": "2023-12-10",
-    "Time": "5pm" ,
-    "Type": "SINGLES" ,
+    "Time": "5pm",
+    "Type": "SINGLES",
     "Title": {
-      "Name": "Madrid Masters" , 
-      "Image": "WTA_TOUR"   
+      "Name": "Madrid Masters",
+      "Image": "WTA_TOUR"
     },
-    "Description": "Willams v Williams" ,
+    "Description": "Willams v Williams",
     "Status": {
-      "Started": true, 
-      "Playing": true, 
-      "Completed": false 
+      "Started": true,
+      "Playing": true,
+      "Completed": false
     },
     "Competition": {
       "Id": "3493487erifu",
@@ -165,13 +165,13 @@
       "Name": "WTA Tour"
     },
     "Court": {
-      "Type": "CLAY" ,
+      "Type": "CLAY",
       "Name": "Court 3",
       "Abbreviation": "C3"
     },
     "Teams": [
       {
-        "Title": "Williams" ,
+        "Title": "Williams",
         "Seeding": 1,
         "Players": [
           {
@@ -181,13 +181,13 @@
             "LastName": "Williams",
             "Country": {
               "Name": "United States",
-              "Code": "USA" 
+              "Code": "USA"
             }
           }
         ]
       },
       {
-        "Title": "Williams" ,
+        "Title": "Williams",
         "Seeding": 2,
         "Players": [
           {
@@ -197,7 +197,7 @@
             "LastName": "Williams",
             "Country": {
               "Name": "United States",
-              "Code": "USA" 
+              "Code": "USA"
             }
           }
         ]
