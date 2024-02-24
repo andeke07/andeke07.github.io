@@ -1,207 +1,162 @@
-{
-  "Id": "123456",
-  "Name": "String",
-  "Type": "LINEAR",
-  "SourceNumber": 10,
-  "PreviousMatch": {
-    "Id": "weoei4352fh443345",
-    "Date": "2023-12-10",
-    "Time": "1pm",
+[
+  {
+    "Id": "6854aa3c-0a15-434a-aa5f-a3d28f7d6e95",
+    "Date": "2024-02-01",
+    "Time": "7.10am",
     "Type": "SINGLES",
     "Title": {
-      "Name": "Australian Open",
-      "Image": "AUSTRALIAN_OPEN"
-    },
-    "Description": "Djokovic v Murray",
-    "Status": {
-      "Started": true,
-      "Playing": true,
-      "Completed": true
-    },
-    "Competition": {
-      "Id": "3493487erifu",
-      "Name": "Australian Open"
-    },
-    "Tournament": {
-      "Id": "249328r6kghfs",
-      "Name": "Australian Open 2024"
-    },
-    "Tour": {
-      "Id": "erfowiu987",
-      "Name": "ATP World Tour"
-    },
-    "Court": {
-      "Type": "CLAY",
-      "Name": "Court 12",
-      "Abbreviation": "C12"
-    },
-    "Teams": [
-      {
-        "Title": "Djokovic",
-        "Seeding": 1,
-        "Players": [
-          {
-            "Id": 2314213,
-            "Name": "Novak Djokovic",
-            "FirstName": "Novak",
-            "LastName": "Djokovic",
-            "Country": {
-              "Name": "Serbia",
-              "Code": "SRB"
-            }
-          }
-        ]
-      },
-      {
-        "Title": "Murray",
-        "Seeding": 2,
-        "Players": [
-          {
-            "Id": 23145354213,
-            "Name": "Andy Murray",
-            "FirstName": "Andy",
-            "LastName": "Murray",
-            "Country": {
-              "Name": "Great Britain",
-              "Code": "GBR"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "ActiveMatch": {
-    "Id": "weoeifh443345",
-    "Date": "2023-12-10",
-    "Time": "3pm",
-    "Type": "SINGLES",
-    "Title": {
-      "Name": "Madrid Masters",
-      "Image": "ATP_WORLD_TOUR"
-    },
-    "Description": "Djokovic v Federer",
-    "Status": {
-      "Started": true,
-      "Playing": true,
-      "Completed": false
-    },
-    "Competition": {
-      "Id": "3493487erifu",
-      "Name": "Madrid Masters"
-    },
-    "Tournament": {
-      "Id": "249328r6kghfs",
-      "Name": "Madrid Masters 2023"
-    },
-    "Tour": {
-      "Id": "erfowiu987",
-      "Name": "ATP World Tour"
-    },
-    "Court": {
-      "Type": "CLAY",
-      "Name": "Court 1",
-      "Abbreviation": "C1"
-    },
-    "Teams": [
-      {
-        "Title": "Djokovic",
-        "Seeding": 1,
-        "Players": [
-          {
-            "Id": 2314213,
-            "Name": "Novak Djokovic",
-            "FirstName": "Novak",
-            "LastName": "Djokovic",
-            "Country": {
-              "Name": "Serbia",
-              "Code": "RS"
-            }
-          }
-        ]
-      },
-      {
-        "Title": "Federer",
-        "Seeding": 2,
-        "Players": [
-          {
-            "Id": 23145354213,
-            "Name": "Roger Federer",
-            "FirstName": "Roger",
-            "LastName": "Federer",
-            "Country": {
-              "Name": "Switzerland",
-              "Code": "ch"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "NextMatch": {
-    "Id": "weoeifh443345",
-    "Date": "2023-12-10",
-    "Time": "5pm",
-    "Type": "SINGLES",
-    "Title": {
-      "Name": "Madrid Masters",
+      "Name": "Thailand Open",
       "Image": "WTA_TOUR"
     },
-    "Description": "Willams v Williams",
+    "Description": "Volynets v Maria",
+    "Score": {
+      "Text": "4-5"
+    },
     "Status": {
+      "Status": "Playing",
       "Started": true,
       "Playing": true,
-      "Completed": false
+      "Completed": false,
+      "Finalised": false
     },
     "Competition": {
-      "Id": "3493487erifu",
-      "Name": "Madrid Masters"
+      "Id": "cdurvsoqs0qmtkrhto381cag9",
+      "Name": "Thailand Open"
     },
     "Tournament": {
-      "Id": "249328r6kghfs",
-      "Name": "Madrid Masters 2023"
+      "Id": "6dbc6c8nihfw22haj588foj6c",
+      "Name": "Thailand Open 2024",
+      "MatchType": "SINGLES",
+      "Gender": "WOMEN",
+      "Type": "WTA_250"
     },
     "Tour": {
-      "Id": "erfowiu987",
+      "Id": "b9mpl5zhhtfghsas6ru91jbis",
       "Name": "WTA Tour"
     },
     "Court": {
-      "Type": "CLAY",
-      "Name": "Court 3",
-      "Abbreviation": "C3"
+      "Type": "HARD",
+      "Name": "Center Court",
+      "Abbreviation": "Cent Crt"
     },
     "Teams": [
       {
-        "Title": "Williams",
-        "Seeding": 1,
+        "Title": "Volynets",
+        "Seeding": 0,
         "Players": [
           {
-            "Id": 2314213,
-            "Name": "Venus Williams",
-            "FirstName": "Venus",
-            "LastName": "Williams",
+            "Id": "4hsi2bclynb7w55chop37c76y",
+            "Name": "Katie Volynets",
+            "FirstName": "Katie",
+            "LastName": "Volynets",
             "Country": {
-              "Name": "United States",
+              "Name": "USA",
               "Code": "USA"
             }
           }
         ]
       },
       {
-        "Title": "Williams",
-        "Seeding": 2,
+        "Title": "Maria",
+        "Seeding": 4,
         "Players": [
           {
-            "Id": 23145354213,
-            "Name": "Serena Williams",
-            "FirstName": "Serena",
-            "LastName": "Williams",
+            "Id": "56ka3ujksedxhb3gfupkqeqsj",
+            "Name": "Tatjana Maria",
+            "FirstName": "Tatjana",
+            "LastName": "Maria",
             "Country": {
-              "Name": "United States",
-              "Code": "USA"
+              "Name": "Germany",
+              "Code": "DEU"
             }
           }
         ]
       }
-    ]
+    ],
+    "Channel": {
+      "Name": "sky-sports-tennis",
+      "Type": "LINEAR",
+      "SourceNumber": 0
+    }
+  },
+  {
+    "Id": "3b1c9551-26d2-40f8-8d2e-01c6fbb409c5",
+    "Date": "2024-02-01",
+    "Time": "11.30am",
+    "Type": "SINGLES",
+    "Title": {
+      "Name": "Open Sud de France",
+      "Image": "ATP_WORLD_TOUR"
+    },
+    "Description": "Shevchenko v Barrere",
+    "Score": {
+      "Text": ""
+    },
+    "Status": {
+      "Status": "Fixture",
+      "Started": false,
+      "Playing": false,
+      "Completed": false,
+      "Finalised": false
+    },
+    "Competition": {
+      "Id": "7c8kr5paissgrjmhmn9mo1o89",
+      "Name": "Open Sud de France"
+    },
+    "Tournament": {
+      "Id": "7yp48bwmgo4l4zo08fht9yq6s",
+      "Name": "Open Sud de France 2024",
+      "MatchType": "SINGLES",
+      "Gender": "MEN",
+      "Type": "ATP250"
+    },
+    "Tour": {
+      "Id": "3ht1h2pszkww04uftrsmpah3o",
+      "Name": "ATP World Tour"
+    },
+    "Court": {
+      "Type": "HARD",
+      "Name": "Court 1",
+      "Abbreviation": "Crt 1"
+    },
+    "Teams": [
+      {
+        "Title": "Shevchenko",
+        "Seeding": 6,
+        "Players": [
+          {
+            "Id": "534jvchfcrmx8nchfsu32ypzo",
+            "Name": "Alexander Shevchenko",
+            "FirstName": "Alexander",
+            "LastName": "Shevchenko",
+            "Country": {
+              "Name": "Kazakhstan",
+              "Code": "KAZ"
+            }
+          }
+        ]
+      },
+      {
+        "Title": "Barrere",
+        "Seeding": 0,
+        "Players": [
+          {
+            "Id": "c7lt0kle37xlgtqnszjer98dl",
+            "Name": "Gregoire Barrere",
+            "FirstName": "Gregoire",
+            "LastName": "Barrere",
+            "Country": {
+              "Name": "France",
+              "Code": "FRA"
+            }
+          }
+        ]
+      }
+    ],
+    "Channel": {
+      "Name": "tennis-stream-1",
+      "Type": "STREAM",
+      "SourceNumber": 1
+    }
   }
-}
+]
