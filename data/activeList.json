@@ -1,151 +1,161 @@
 [
   {
-    "Id": "abcd",
-    "Date": "2024-12-10",
-    "Time": "3pm",
+    "Id": "6854aa3c-0a15-434a-aa5f-a3d28f7d6e95",
+    "Date": "2024-02-01",
+    "Time": "7.10am",
     "Type": "SINGLES",
     "Title": {
-      "Name": "Madrid Masters 1000",
-      "Image": "ATP_WORLD_TOUR"
+      "Name": "Thailand Open",
+      "Image": "WTA_TOUR"
     },
-    "Description": "Djokovic v Nadal",
+    "Description": "Volynets v Maria",
     "Score": {
-      "Text": "6-2"
+      "Text": "4-5"
     },
     "Status": {
+      "Status": "Playing",
       "Started": true,
       "Playing": true,
-      "Completed": false
+      "Completed": false,
+      "Finalised": false
     },
     "Competition": {
-      "Id": "String",
-      "Name": "String"
+      "Id": "cdurvsoqs0qmtkrhto381cag9",
+      "Name": "Thailand Open"
     },
     "Tournament": {
-      "Id": "String",
-      "Name": "ATP Finals"
+      "Id": "6dbc6c8nihfw22haj588foj6c",
+      "Name": "Thailand Open 2024",
+      "MatchType": "SINGLES",
+      "Gender": "WOMEN",
+      "Type": "WTA_250"
     },
     "Tour": {
-      "Id": "abc123",
-      "Name": "ATP World Tour"
+      "Id": "b9mpl5zhhtfghsas6ru91jbis",
+      "Name": "WTA Tour"
     },
     "Court": {
-      "Type": "CLAY",
-      "Name": "Court 5",
-      "Abbreviation": "C5"
+      "Type": "HARD",
+      "Name": "Center Court",
+      "Abbreviation": "Cent Crt"
     },
     "Teams": [
       {
-        "Title": "Djokovic",
-        "Seeding": 1,
+        "Title": "Volynets",
+        "Seeding": 0,
         "Players": [
           {
-            "Id": "123abv",
-            "Name": "Novac Djokovic",
-            "FirstName": "Novac",
-            "LastName": "Djokovic",
+            "Id": "4hsi2bclynb7w55chop37c76y",
+            "Name": "Katie Volynets",
+            "FirstName": "Katie",
+            "LastName": "Volynets",
             "Country": {
-              "Name": "Serbia",
-              "Code": "SRB"
+              "Name": "USA",
+              "Code": "USA"
             }
           }
         ]
       },
       {
-        "Title": "Murray",
-        "Seeding": 2,
+        "Title": "Maria",
+        "Seeding": 4,
         "Players": [
           {
-            "Id": "123abv",
-            "Name": "Andy Murray",
-            "FirstName": "Andy",
-            "LastName": "Murray",
+            "Id": "56ka3ujksedxhb3gfupkqeqsj",
+            "Name": "Tatjana Maria",
+            "FirstName": "Tatjana",
+            "LastName": "Maria",
             "Country": {
-              "Name": "United Kingdom",
-              "Code": "GBR"
+              "Name": "Germany",
+              "Code": "DEU"
             }
           }
         ]
       }
     ],
     "Channel": {
-      "Name": "Main Channel",
+      "Name": "sky-sports-tennis",
       "Type": "LINEAR",
       "SourceNumber": 0
     }
   },
   {
-    "Id": "abcd",
-    "Date": "10-12-2024",
-    "Time": "5pm",
+    "Id": "3b1c9551-26d2-40f8-8d2e-01c6fbb409c5",
+    "Date": "2024-02-01",
+    "Time": "11.30am",
     "Type": "SINGLES",
     "Title": {
-      "Name": "Madrid Masters 1000",
+      "Name": "Open Sud de France",
       "Image": "ATP_WORLD_TOUR"
     },
-    "Description": "Williams v Willliams",
+    "Description": "Shevchenko v Barrere",
     "Score": {
-      "Text": "6-2"
+      "Text": ""
     },
     "Status": {
-      "Started": 1,
-      "Playing": 1,
-      "Completed": 0
+      "Status": "Fixture",
+      "Started": false,
+      "Playing": false,
+      "Completed": false,
+      "Finalised": false
     },
     "Competition": {
-      "Id": "String",
-      "Name": "String"
+      "Id": "7c8kr5paissgrjmhmn9mo1o89",
+      "Name": "Open Sud de France"
     },
     "Tournament": {
-      "Id": "String",
-      "Name": "ATP Finals"
+      "Id": "7yp48bwmgo4l4zo08fht9yq6s",
+      "Name": "Open Sud de France 2024",
+      "MatchType": "SINGLES",
+      "Gender": "MEN",
+      "Type": "ATP250"
     },
     "Tour": {
-      "Id": "abc123",
+      "Id": "3ht1h2pszkww04uftrsmpah3o",
       "Name": "ATP World Tour"
     },
     "Court": {
-      "Type": "GRASS",
-      "Name": "Court 12",
-      "Abbreviation": "C12"
+      "Type": "HARD",
+      "Name": "Court 1",
+      "Abbreviation": "Crt 1"
     },
     "Teams": [
       {
-        "Title": "Williams",
-        "Seeding": 1,
+        "Title": "Shevchenko",
+        "Seeding": 6,
         "Players": [
           {
-            "Id": "123abv",
-            "Name": "Venus Williams",
-            "FirstName": "Venus",
-            "LastName": "Williams",
+            "Id": "534jvchfcrmx8nchfsu32ypzo",
+            "Name": "Alexander Shevchenko",
+            "FirstName": "Alexander",
+            "LastName": "Shevchenko",
             "Country": {
-              "Name": "United States",
-              "Code": "USA"
+              "Name": "Kazakhstan",
+              "Code": "KAZ"
             }
           }
         ]
       },
       {
-        "Title": "Williams",
-        "Seeding": 2,
+        "Title": "Barrere",
+        "Seeding": 0,
         "Players": [
           {
-            "Id": "123abv",
-            "Name": "Serena Williams",
-            "FirstName": "Serena",
-            "LastName": "Williams",
+            "Id": "c7lt0kle37xlgtqnszjer98dl",
+            "Name": "Gregoire Barrere",
+            "FirstName": "Gregoire",
+            "LastName": "Barrere",
             "Country": {
-              "Name": "United States",
-              "Code": "USA"
+              "Name": "France",
+              "Code": "FRA"
             }
           }
         ]
       }
     ],
     "Channel": {
-      "Name": "Main Channel",
-      "Type": "LINEAR",
+      "Name": "tennis-stream-1",
+      "Type": "STREAM",
       "SourceNumber": 1
     }
   }
