@@ -16,7 +16,7 @@
       "Status": "Playing",
       "Started": true,
       "Playing": true,
-      "Completed": false,
+      "Completed": true,
       "Finalised": false
     },
     "Competition": {
